@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Gotham";
+    src: url("../fonts/gotham-book.woff2");
+  }
+  @font-face {
+    font-family: "Gotham";
+    src: url("../fonts/gotham-bold.woff2");
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: "Gotham";
+    src: url("../fonts/gotham-black.woff2");
+    font-weight: 900;
+  }
+  @font-face {
+    font-family: "Gotham";
+    src: url("../fonts/gotham-light.woff2");
+    font-weight: 300;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --dark-grey: #333333;
+    --light-grey: #808080;
+    --yellow: #FFB612;
+    --red: #dc0a17;
+    --green: #2FC022;
+
+
+    font-size: 62.5%;
+}
+html, body {
+    font-size: 1.6rem;
+    font-family: 'Gotham', sans-serif;
+}
+h1 {
+    color: var(--dark-grey);
+}
+p {
+    color: var(--dark-grey);
+}
+input[type='radio'],
+input[type='checkbox'] {
+  display: none;
+}
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  transition: all .2s;
+}
